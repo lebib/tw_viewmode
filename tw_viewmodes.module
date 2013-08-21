@@ -1,0 +1,24 @@
+<?php
+/**
+ * @file
+ * This module provides ??????????
+ */
+
+/**
+ * Implements hook_entity_info_alter
+ */
+
+function tw_viewmodes_entity_info_alter(&$entity_info) {
+  $entity_info['file']['view modes']['mini'] = array(
+    'label' => t('Mini'),
+    'custom settings' => TRUE,
+  );
+  $entity_info['file']['view modes']['medium'] = array(
+    'label' => t('Medium'),
+    'custom settings' => TRUE,
+  );
+  $entity_info['file']['view modes']['large'] = array(
+    'label' => t('Large'),
+    'custom settings' => TRUE,
+  );
+}

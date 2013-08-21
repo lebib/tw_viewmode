@@ -1,0 +1,10 @@
+;$Id$
+name = Viewmodes
+description = Add 3 more viewmodes (compact, block, fieldy) for nodes
+package = Tremenswork
+core =  7.x
+version = 0.1
+php = 5.3
+;dependencies[] = ??????
+files[] = tw_viewmodes.module
+files[] = tw_viewmodes.install
