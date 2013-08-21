@@ -1,6 +1,6 @@
 ;$Id$
 name = Viewmodes
-description = Add 3 more viewmodes (compact, block, fieldy) for nodes
+description = Add 3 more viewmodes for files (mini, medium, large)
 package = Tremenswork
 core =  7.x
 version = 0.1
